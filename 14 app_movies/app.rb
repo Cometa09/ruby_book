@@ -19,3 +19,12 @@ end
 get('/movies/new') do
 erb :new
 end
+
+post('/movies/create') do
+    #"Received: #{params.inspect}"
+    # Вернуть значения из формы в браузер
+    @movie = Movie.new
+    @movie.title = params['title']
+    @movie.director = params['director']
+    @movie.year = params['year']
+end
