@@ -5,10 +5,8 @@ require 'movie_store'
 store = MovieStore.new('movies.yml')
 
 get('/movies') do
-@movies = []
-@movies[0] = Movie.new
-@movies[0].title = "Jaws"
-erb :index
+    @movies = store.all
+    erb :index
 end
 
 get('/movies/show') do

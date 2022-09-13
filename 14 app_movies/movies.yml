@@ -1,16 +1,16 @@
 ---
 1: !ruby/object:Movie
-  title: '11'
-  director: '22'
-  year: '33'
+  title: Schindler's List
+  director: Steven Spielberg
+  year: '1993'
   id: 1
 2: !ruby/object:Movie
-  title: '1'
-  director: '3'
-  year: '2'
+  title: The Godfather
+  director: Francis Ford Coppola
+  year: '1972'
   id: 2
 3: !ruby/object:Movie
-  title: '22'
-  director: '33'
-  year: '55'
+  title: The Shawshank Redemption
+  director: Frank Darabont
+  year: '1994'
   id: 3
