@@ -1,0 +1,16 @@
+---
+1: !ruby/object:Movie
+  title: '11'
+  director: '22'
+  year: '33'
+  id: 1
+2: !ruby/object:Movie
+  title: '1'
+  director: '3'
+  year: '2'
+  id: 2
+3: !ruby/object:Movie
+  title: '22'
+  director: '33'
+  year: '55'
+  id: 3
