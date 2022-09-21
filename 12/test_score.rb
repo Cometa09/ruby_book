@@ -1,4 +1,4 @@
-class TestScoreError <StandardError
+class TestScoreError < StandardError
 end
 
 score = 52
